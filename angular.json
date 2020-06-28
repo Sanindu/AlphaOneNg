@@ -30,7 +30,55 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+
+              "assets/js/constants.js",
+              "assets/js/app.js",
+             "assets/js/document.js",
+             "assets/js/english.js",
+             "assets/js/sinhala.js",
+             "assets/js/tamil.js",
+             "assets/js/keyboard.js",
+              "assets/js/englishHouseNumber.js",
+             "assets/js/englishNIC.js",
+              "assets/js/englishProfession.js",
+              "assets/js/englishTitle.js",
+             "assets/js/form.js",
+
+             "assets/js/numberpad.js",
+              "assets/js/sihalaProfession.js",
+
+            "assets/js/sinhalaEmail.js",
+              "assets/js/sinhalaHouseNumber.js",
+              "assets/js/sinhalaNIC.js",
+             "assets/js/sinhalaNumberpad.js",
+             "assets/js/sinhalaTitle.js",
+
+              "assets/js/tamilEmail.js",
+              "assets/js/tamilHouseNumber.js",
+             "assets/js/tamilNIC.js",
+              "assets/js/tamilNumberpad.js",
+             "assets/js/tamilProfession.js",
+             "assets/js/tamilTitle.js",
+             "assets/js/voice.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ]
           },
           "configurations": {
             "production": {

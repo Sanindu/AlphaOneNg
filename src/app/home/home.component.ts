@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+declare const alphaone: any;
+declare const document: any;
+declare const keyboard: any;
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) { }
 
   ngOnInit(): void {
+
+
   }
 
 }

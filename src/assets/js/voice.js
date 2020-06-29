@@ -28,7 +28,7 @@ let voice = {
             };
         }
     },
-    addAudioToStatement: (id, content, callback){
+    addAudioToStatement: (id, content, callback) =>{
         // Check sessionkey
         if (this.getCookie("alphaOneSessionKey") == "") {
             console.log("Session key was not found.");
@@ -89,6 +89,6 @@ let voice = {
                     }
                 }
             };
-        }        
+        }
     }
 }

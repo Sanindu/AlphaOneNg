@@ -28,7 +28,7 @@ let document = {
             };
         }
     },
-    addPageToDocument: (id, content, callback){
+    addPageToDocument: (id, content, callback)=>{
         // Check sessionkey
         if (this.getCookie("alphaOneSessionKey") == "") {
             console.log("Session key was not found.");

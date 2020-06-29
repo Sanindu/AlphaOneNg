@@ -30,28 +30,28 @@
                 <p> Type your First Name here </p>
                 <button class="btn btn-light btn-lg action-button"  (click) = "speak('sinhala_name')" ><i class="fas fa-microphone"></i></button>
                 <button class="btn btn-light btn-lg action-button"   (click)= "loadKeyboard(1,'sinhala_name')" ><i class="fas fa-keyboard"></i></button>
-             
+
 
               </div>
 
             <div class="col">
                 <div class="row justify-content-center">
                     <form>
-                        <div class="form-group"><label for="exampleInputEmail1"><p>මුල් නම</p></label><input type="text" class="form-control form-control-lg" list="sinhala" id="sinhala_name"  onclick="loadKeyboard(1,'sinhala_name')" oninput="suggest()" /><datalist id="sinhala"></datalist>
+                        <div class="form-group"><label for="exampleInputEmail1"><p>මුල් නම</p></label><input type="text" class="form-control form-control-lg" list="sinhala" id="sinhala_name"  (click) ="loadKeyboard(1,'sinhala_name')"   (change) ="suggest()" /><datalist id="sinhala"></datalist>
                         </div>
                     </form>
                 </div>
 
                 <div class="row justify-content-center">
                     <form>
-                        <div class="form-group"><label for="exampleInputEmail1"><p>පළමු නම ඉංග්‍රීසියෙන්</p></label><input type="text" class="form-control form-control-lg" list="english" id="english_name"  onclick="loadKeyboard(3,'english_name')" /><datalist id="english"></datalist>
+                        <div class="form-group"><label for="exampleInputEmail1"><p>පළමු නම ඉංග්‍රීසියෙන්</p></label><input type="text" class="form-control form-control-lg" list="english" id="english_name"  (click)="loadKeyboard(3,'english_name')" /><datalist id="english"></datalist>
                         </div>
                     </form>
                 </div>
 
                 <div class="row justify-content-center">
                     <form>
-                        <div class="form-group"><label for="exampleInputEmail1"><p>දෙමළ භාෂාවෙන් පළමු නම</p></label><input type="text" class="form-control form-control-lg" list="tamil" id="tamil_name"  onclick="loadKeyboard(2,'tamil_name')" /><datalist id="tamil"></datalist>
+                        <div class="form-group"><label for="exampleInputEmail1"><p>දෙමළ භාෂාවෙන් පළමු නම</p></label><input type="text" class="form-control form-control-lg" list="tamil" id="tamil_name"  (click) ="loadKeyboard(2,'tamil_name')" /><datalist id="tamil"></datalist>
                         </div>
                     </form>
 

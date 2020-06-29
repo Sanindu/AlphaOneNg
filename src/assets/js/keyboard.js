@@ -273,11 +273,11 @@ function keyboardButtonClick(key) {
                     });
                     text_box.value += key.innerHTML;
                 }
-                
+
 
             }
             break;
-    }  
+    }
 
     if (variationArray != undefined && variationArray.length > 0) {
         document.getElementById('v1').innerHTML = "";
@@ -338,7 +338,7 @@ function keyboardSpaceButtonClick() {
 }
 
 function toggleSymbol(lang) {
-    
+
     var i = 0;
     if (isSymbol) {
         document.querySelectorAll('.character').forEach(element => {
@@ -352,7 +352,7 @@ function toggleSymbol(lang) {
                 else {
                     element.innerHTML = alphabetArray[i];
                 }
-                
+
             }
             else {
                 element.innerHTML = "";
@@ -375,7 +375,7 @@ function toggleSymbol(lang) {
         isSymbol = true;
         document.getElementById("symbol").innerHTML = "abc"
     }
-    
+
 }
 
 function loadNumber(lang) {
@@ -444,7 +444,7 @@ function getSuggestion(control,lang) {
         default:
             break;
     }
-    
+
 }
 
 function getSuggestionResponse() {

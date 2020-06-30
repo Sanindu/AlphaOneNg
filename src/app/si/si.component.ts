@@ -17,6 +17,7 @@ declare const BASEURL: any;
 declare const getCookie: any;
 
 
+
 @Component({
   selector: 'app-si',
   templateUrl: './si.component.html',
@@ -42,7 +43,7 @@ export class SiComponent  {
   callback(){
 
   // const xhr = new XMLHttpRequest();
-  if (this.status === 'OK')
+  if ( status === 'OK')
   {
 
 }
@@ -82,7 +83,7 @@ getResponse() {
 
 
   // const xhr = new XMLHttpRequest();
-  const wordArray =   this.response.wordList;
+  const wordArray =  response.wordList;
     // document.getElementById("english_name").value = wordArray[0];
   wordArray.forEach((element) => {
         document.getElementById('sinhala').innerHTML +=
@@ -103,7 +104,7 @@ getResponse() {
  getEnglishResponse() {
 
 
-  const wordArray = this.response.wordList;
+  const wordArray = response.wordList;
   document.getElementById('english_name').value = wordArray[0];
   wordArray.forEach((element) => {
         document.getElementById('english').innerHTML +=
@@ -119,7 +120,7 @@ getResponse() {
  getTamilResponse() {
 
 
-  const wordArray = this.response.wordList;
+  const wordArray = response.wordList;
   document.getElementById('tamil_name').value = wordArray[0];
   wordArray.forEach((element) => {
         document.getElementById('tamil').innerHTML +=
